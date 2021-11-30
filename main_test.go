@@ -13,7 +13,7 @@ func TestFindMax(t *testing.T) {
 		a := []int{1, 2, 3, 8, 9, 3, 2, 1}
 		max := FindMax(a)
 
-		n := 9
+		n := 3
 		if max != n {
 			t.Errorf("findMax was incorrect, got: %d, want: %d.", max, n)
 		}
@@ -24,7 +24,7 @@ func TestFindMax(t *testing.T) {
 		a := []int{1, 2, 3, 8, 9, 3, 2, 1}
 		max := FindMax(a)
 
-		n := 5
+		n := 2
 		assert.NotEqual(t, n, max)
 	})
 
